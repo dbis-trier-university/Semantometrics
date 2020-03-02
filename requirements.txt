@@ -1,0 +1,10 @@
+matplotlib
+seaborn
+torch
+numpy
+sklearn
+pandas
+gensim
+nltk
+scipy
+plotly

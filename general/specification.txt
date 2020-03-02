@@ -1,0 +1,36 @@
+# paths to base files need to be specified
+
+path_to_seminal_stemmed.json=
+path_to_survey_stemmed.json=
+path_to_uninfluential_stemmed.json=
+
+path_to_seminal_unstemmed.json=
+path_to_survey_unstemmed.json=
+path_to_uninfluential_unstemmed.json=
+
+------------------------------------------------------------------------------------------------------------------------
+
+# path to which everything will be written
+path_for_everything=
+
+path_d2v_base=
+path_lda_base.txt=
+
+stem=False
+------------------------------------------------------------------------------------------------------------------------
+
+# specify what you want to do: 0 = construct all embeddings, 1 = construct one embedding, 2 = construct all features,
+# 3 = construct one feature, 4 = full run of semantometrics, 5 = single run of semantometrics, 6 = full run of
+# semantometrics with information available at publication time, 7 single run of semantometrics with information
+# available at publication time
+what_to_do=
+
+# vectors needs to be one of the following: TFIDF-s, TFIDF-u, D2V, BERT, LDA-s, LDA-u, years
+vectors=
+
+# specification of distance_measure: cos, jac, emd, ipd
+distance_measure=
+
+# classifier: LR, RF, NB, SVM, GB, KNN, SGD
+classifier=
+
